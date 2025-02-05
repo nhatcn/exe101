@@ -7,12 +7,14 @@ import Login from '../pages/Auth/Login/Login';
 import Register from '../pages/Auth/Register/Register';
 import ForgotPassword from '../pages/Auth/ForgotPass/ForgotPassword';
 import Map from '../pages/map/Map';
+import Home from '../pages/Home/Home';
 
 
 
 const RoutesConfig = () => {
   return (
     <Routes>
+      <Route path="/" element={<Home />} />
       <Route path="/booking" element={<Booking />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/login" element={<Login />} />

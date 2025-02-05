@@ -217,7 +217,7 @@ const Booking = () => {
                   tours.map((tour) => (
                     <div
                       key={tour.id}
-                      className="tour-card"
+                      className=""
                       style={{ border: "1px solid #ccc", borderRadius: "5px", padding: "1rem", marginBottom: "0.5rem" }}
                     >
                       <label htmlFor={`tour-${tour.id}`}>

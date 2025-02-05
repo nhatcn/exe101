@@ -13,7 +13,7 @@ body {
   /* Hero Section */
   .hero-section {
     width: 100%; /* Full chiều ngang */
-    height: 40vh;
+    height: 35vh;
     background: url("https://azerai.com/wp-content/uploads/2020/09/can-tho-cycling-tours.jpg") center/cover no-repeat;
     position: relative;
     color: #fff;

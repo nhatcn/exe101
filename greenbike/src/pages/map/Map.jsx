@@ -74,7 +74,7 @@ const Map = () => {
 
   return (
     <div className="container-fluid vh-120 d-flex">
-      <div className="col-7">
+      <div className="col-10">
         <MapContainer center={currentPosition} zoom={13} className="w-100 h-100">
           <LayersControl position="topright">
             <LayersControl.BaseLayer checked name="Bản đồ tiêu chuẩn">
@@ -100,7 +100,7 @@ const Map = () => {
       </div>
 
       {/* Sidebar tìm kiếm */}
-      <div className="col-3 bg-light p-3">
+      <div className="col-2 bg-light p-3">
         <input 
           type="text" 
           className="form-control mb-2" 
