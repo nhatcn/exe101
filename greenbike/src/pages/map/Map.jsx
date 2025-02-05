@@ -21,7 +21,7 @@ const blueIcon = new L.Icon({
   popupAnchor: [1, -34],
 });
 
-const Map = () => {
+const MapView = () => {
   const [currentPosition, setCurrentPosition] = useState([10.762622, 106.660172]); // HCM City mặc định
   const [searchPosition, setSearchPosition] = useState(null);
   const [search, setSearch] = useState("");
@@ -75,7 +75,11 @@ const Map = () => {
   return (
     <div className="container-fluid vh-120 d-flex">
       <div className="col-10">
-        <MapContainer center={currentPosition} zoom={13} className="w-100 h-100">
+      <MapContainer 
+  center={currentPosition} 
+  zoom={13} 
+  style={{ height: "100vh", width: "100%" }}
+>
           <LayersControl position="topright">
             <LayersControl.BaseLayer checked name="Bản đồ tiêu chuẩn">
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
@@ -126,4 +130,4 @@ const Map = () => {
   );
 };
 
-export default Map;
+export default MapView;

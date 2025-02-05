@@ -42,16 +42,12 @@ const Login = () => {
 
             {/* Social Login */}
             <div className="row g-3 mb-3">
-              <div className="col-sm-6">
+              <div className="col-sm-12">
                 <button className="btn btn-outline-danger w-100">
                   <FaGoogle className="me-2" /> Sign in with Google
                 </button>
               </div>
-              <div className="col-sm-6">
-                <button className="btn btn-outline-primary w-100">
-                  <FaFacebook className="me-2" /> Sign in with Facebook
-                </button>
-              </div>
+              
             </div>
 
             <div className="text-center my-3">
