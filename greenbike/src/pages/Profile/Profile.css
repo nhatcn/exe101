@@ -1,0 +1,77 @@
+/* profile.css */
+
+  .auth-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-content {
+    text-align: center;
+  }
+  
+  .profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style cho form input */
+  .form-group {
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Sử dụng input không border */
+  .input-icon-wrapper {
+    position: relative;
+  }
+  
+  .input-icon-wrapper input {
+    width: 100%;
+    padding-right: 2rem;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    padding-left: 0;
+    font-size: 1rem;
+    background-color: transparent;
+  }
+  
+  /* Cho icon sát bên chữ, điều chỉnh padding của icon nếu cần */
+  .input-icon-wrapper .pencil-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #198754;
+    cursor: pointer;
+  }
+  
+  /* Định dạng cho trường Name: chữ to hơn */
+  .form-group.name-group input {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* Button style */
+  .btn-primary {
+    background-color: #198754;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #146c43;
+  }
+  

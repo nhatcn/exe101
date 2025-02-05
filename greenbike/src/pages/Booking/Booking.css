@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.booking-container {
+    max-width: 850px;
+    margin: -3rem auto 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 100;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.btn-book {
+    background-color: #198754;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-book:hover {
+    background-color: #146c43;
+    color: white;
+}
+
+.progress-step {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.step-number {
+    background-color: #198754;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+/* Styles cho booking mode toggle */
+.booking-mode-toggle {
+    text-align: center;
+    margin: 1rem auto;
+}
+.booking-mode-toggle .btn {
+    margin: 0 0.5rem;
+}
+
+/* Nếu có hiển thị bảng preview cho file Excel */
+.preview-table {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+.preview-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.preview-table th,
+.preview-table td {
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
