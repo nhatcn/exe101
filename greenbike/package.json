@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-spring/animated": "^9.7.5",
+    "@react-spring/core": "^9.7.5",
+    "@react-spring/konva": "^9.7.5",
     "@react-spring/web": "^9.7.5",
     "ajv": "^8.0.0",
     "axios": "^1.7.9",
